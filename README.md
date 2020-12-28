@@ -5,6 +5,6 @@ A shower thought for today after watching [Stand-up Maths 500 LED video][sum-led
 [sum-leds]: https://www.youtube.com/watch?v=TvlpIojusBE
 [rm]: https://en.wikipedia.org/wiki/Rotation_matrix
 
-See the commit history for the different versions of `rotate{X,Y,Z}`.
+See the [commit history][ch] for the different versions of `rotate{X,Y,Z}`.
 
-
+[ch]: https://github.com/sneeu/refactor-matrix/commits/main/rotation.ts
