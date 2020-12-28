@@ -1,10 +1,10 @@
-export type Point = {
+type Point = {
   x: number;
   y: number;
   z: number;
 };
 
-export const rotate = (point: Point, transformMatrix: number[][]): Point => {
+const rotate = (point: Point, transformMatrix: number[][]): Point => {
   const x_ =
     transformMatrix[0][0] * point.x +
     transformMatrix[0][1] * point.y +
